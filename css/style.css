@@ -1,0 +1,699 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation-bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  color:#FA7268;
+  padding-left:2rem;
+  padding-right:4rem;
+
+}
+.navbar{
+  background-color:#FFF5F2 ;
+   padding-right: 4rem;
+}
+.nav-item {
+  padding: 0 2rem;
+  color:black;
+  font-family: "Ubuntu";
+  font-weight:bold;
+}
+
+.nav-link:hover{
+  color: #FA7268;
+  text-decoration:underline #FA7268;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color:black;
+  font-family: "Ubuntu";
+  font-weight:bold;
+}
+
+ .search{
+   padding: 1rem;
+ }
+
+ .cart-icon{
+  padding: 1rem;
+  
+ }
+
+ .nav-icon{
+   background-color:#FA7268 ;
+   margin-left:5rem;
+
+ }
+
+ .dropdown-menu{
+   background-color: black;
+   
+ }
+ .dropdown-item{
+   color:white;
+ }
+
+
+
+/* top section */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  font-weight: bold;
+  width: 90%;
+  padding-left: 0rem;
+  text-align: left;
+}
+
+
+
+
+.colore-section {
+  background-image: url(images/apple_shapebg1.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  padding-top: 1rem;
+  padding-bottom: 9rem;
+ 
+}
+
+#word-head{
+  color: black;
+ 
+}
+
+#title {
+  color: black;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 3% 7% 6%;
+}
+
+.title-image {
+  width: 95%;
+  position: absolute;
+  right: 30%;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
+
+@-webkit-keyframes animate1 { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes animate1 { from { opacity:0; } to { opacity:1; } }
+@keyframes animate1 { from { opacity:0; } to { opacity:1; } }
+
+.title-image {
+opacity:0;
+-webkit-animation:animate1 ease-in 1;
+-moz-animation:animate1 ease-in 1;
+animation:animate1 ease-in 1;
+
+-webkit-animation-fill-mode:forwards;
+-moz-animation-fill-mode:forwards;
+animation-fill-mode:forwards;
+
+-webkit-animation-duration:1s;
+-moz-animation-duration:1s;
+animation-duration:1s;
+} 
+
+.phrase{
+  padding-left:9rem;
+}
+
+
+ /* button */
+ .get-button {
+  font-family: arial;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 10px 29px;
+  border-radius: 0px;
+  border: 0px solid #FF33A7;
+  background-color: #FF33A7;
+}
+.get-button:hover {
+  color: #FFFFFF ;
+  background-color: #52DEAB;
+}
+
+
+
+
+
+
+
+  /*about section */
+ .about-section{
+   text-align: left;
+   background-color:#f7fdff ;
+   padding:4rem;
+ }
+ .heading{
+   color:black;
+   font-size: bold;
+   font-size: 3rem;
+   width:40vw;
+   padding:2rem 2rem 1rem 5rem;
+ }
+
+ .words{
+  width:50vw;
+  padding:1rem 2rem 2rem 5rem;
+ }
+
+ 
+ #no1{
+  font-size:4rem;
+  font-weight: bold;
+  color:rgb(90, 79, 238)
+}
+
+ #no2{
+  font-size:4rem;
+  font-weight: bold;
+  color:rgb(28, 224, 54)
+} 
+
+#no3{
+  font-size:4rem;
+  font-weight: bold;
+  color:rgb(247, 46, 203)
+}
+
+.feature-title{
+  color:black;
+  font-size: bolder;
+  font-size: 2.5rem;
+  font-family: "Ubuntu", Arial;
+}
+
+
+
+
+
+
+/* skill section */
+#skill{
+  background-image: url(images/apple_shapebg3-1.jpg);
+  text-align: left;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#skill-heading{
+    font-family: "Ubuntu";
+    color:black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.bar {
+  width: 40vw;
+  background-color: #ddd;
+}
+
+#purple{
+  color:#52057b;
+  display: inline-block;
+  font-family: "Montserrat-bold";
+  font-weight: bolder;
+ 
+}
+.colour{
+  color: black;
+  display: inline-block;
+  font-family: "Montserrat-bold";
+  font-weight: bolder;
+}
+
+#red{
+   color:#ec524b;
+   display: inline-block;
+   font-family: "Montserrat-bold";
+   font-weight: bolder;
+   padding-top: 20px;
+}
+
+.skill-section{
+  width:45vw;
+  padding:4rem 5rem ;
+}
+
+.skills1 {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  color: white;
+  background-color:#52057b;
+}
+
+.skills2 {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  color: white;
+  background-color:#ec524b;
+}
+
+.dev {width: 95%;}
+.des {width: 85%;}
+.pri {width: 80%;}
+.mar {width: 70%;}
+
+
+
+
+/* expert section */
+
+
+#expert{
+  background-color:#fddcd1;
+}
+
+.line{
+  display:block;
+  width:10% ;/*or whatever width you want the effect of <hr>*/
+  border-top: 2px solid black;
+  
+}
+.our{
+  padding:0.8rem;
+  font-size:1.5rem;
+  color:#fa7268;
+}
+.expert-heading{
+  padding:3rem;
+  font-size:4rem;
+  color:#fa7268;
+}
+.expert {
+  padding:5rem;
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #fa7268;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fa7268;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fa7268;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #fa7268;
+  background-color: #f7f5ec;
+}
+
+
+
+
+/* photo section */
+.textchanging{
+   background-color: rgb(129, 13, 165);
+   padding:5rem;
+}
+   
+
+.text-heading { 
+  display: flex; 
+  justify-content: center; 
+  color: white;
+  font-family:"Ubuntu";
+  font-weight: bold;
+  font-size: 2.6rem;
+ } 
+
+ #change::before { 
+  content: 'Illustrations';
+  animation: animate ease-out infinite 10s ; 
+  padding: 10px;
+  color:#fa968f; 
+  font-family:"Ubuntu";
+  font-weight: bold;
+  font-size: 2.6rem;
+  }
+ 
+
+ @keyframes animate { 
+   0% { 
+    content: "Illustrations";
+  } 
+
+  50% { 
+      content: "Web Design"; 
+  } 
+
+  100% { 
+     content: "Consulting"; 
+  } 
+} 
+
+/* photos */
+.card{
+  padding:0px;
+  margin:0px;
+  border:0px; 
+  width: 100%;
+  background-size: cover;
+}
+
+.column{
+  padding:0px;
+  margin:0px;
+  border:0px;
+  width:50%;
+}
+
+.row-photo
+{
+  margin:0px;
+  background-color: #FFF5F2;
+ 
+}
+
+.photos-image{
+  max-width: 100%;
+  height:50%;
+  padding:0px;
+  margin:0px;
+
+}
+
+
+ 
+.slide-text{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fa7268;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .4s ease;
+}
+
+.card:hover .slide-text {
+  bottom: 0;
+  height: 100%;
+}
+
+
+.slide{
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+.slide-heading{
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+.slide-word{
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} 
+
+
+/*Lets work together section*/
+.contact-us{
+    padding:2rem;
+}
+
+
+
+
+/* contact section */
+.contact-us{
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color:#f7fdff ;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color:#FA7268;
+}
+
+.contact-title {
+  font-size: 1rem;
+  font-family:  "Montserrat-black";
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.button2{
+   align-content: center;
+}
+
+.button2 {
+  font-family: arial;
+  font-weight: bold;
+  color: #FA7268 !important;
+  font-size: 14px;
+  text-shadow: 0px 0px 0px #FFFFFF;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 40px;
+  border: 2px solid #FA7268;
+  background-color: #FFF5F2;
+}
+.button2:hover {
+  color: #FFFFFF !important;
+  background-color: #FA7268;
+}
+
+#button-bottom{
+  padding-bottom:20px;
+}
+
+
+
+
+
+/* footer section  */
+
+.brand{
+  font-family: "Ubuntu";
+  color: #FA7268;
+  padding-top : 5% ;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.social-icon {
+  margin: 20px 5px;
+ 
+}
+
+.social-icon:hover{
+   color: #FA7268;
+}
+
+.colored-section{
+   background-color: #FFF5F2;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
